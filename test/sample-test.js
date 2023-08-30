@@ -13,8 +13,8 @@ describe("Token Contract", function () {
     const countedTransactions = await testTransactions.getTransactionCount();
     const getAllTransactions = await testTransactions.getAllTransactions();
 
-    console.log(countedTransactions);
-    console.log(getAllTransactions);
+    console.log("Counted Transactions: ", countedTransactions);
+    console.log("Transaction Info: ", getAllTransactions);
 
 
   });
